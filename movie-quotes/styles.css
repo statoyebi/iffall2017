@@ -1,0 +1,30 @@
+html{
+
+	color:red;
+
+	background-color: brown;
+
+	}
+
+	body{
+		display: block;
+	}
+
+	strong{
+		color:white;
+	}
+
+			p span {
+				font-size: 48px
+			}
+			p span {
+				color: white;
+			}
+			p span.second_span {
+				font-size: 18px
+			}
+			p span.second_span {
+				color: yellow
+			}
+		</style>
+}
