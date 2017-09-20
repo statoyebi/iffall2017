@@ -1,0 +1,57 @@
+
+/* ID overrides class overrides html */
+
+html{
+
+	text-align: justify;
+}
+
+h1{
+	font-family: Arial;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #FF0000
+}
+
+body{
+
+	font-family: Arial, Helvetica ;
+	margin:300px;
+	font-size: 18px /* em, rem,% */
+	color: rgb(255,255,255) ; /* white,red,red,red*/
+	color: rgba(255,0,0,.5)
+	color: #ff0000;
+	line-height: 1.5;
+	
+	
+
+}
+
+p {
+	font-size: 12px
+	text-indent: 100px;
+}
+
+span{
+	color: rgba(0,200,255,.5);
+	font-weight: bold; /* light100 to normal400 to bold700 (100-900)*/
+	font-style: italic;
+
+}
+
+span.redspan{
+
+	color:red;
+	font-size: 18px;
+	letter-spacing: 4px;
+	font-style: italic;
+	
+}
+
+span #specialspan {
+
+	
+
+	
+
+}
+
