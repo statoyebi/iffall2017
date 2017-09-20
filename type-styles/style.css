@@ -1,0 +1,102 @@
+
+/* ID overrides class overrides html */
+
+html{
+
+	text-align: justify;
+	background-color: rgba(255,0,0,.2) ;
+}
+
+
+h1{
+	font-family: 'Ubuntu', sans-serif ;
+	text-transform: uppercase;
+	font-size: 72px;
+	line-height: .5;
+
+}
+
+h3{
+	line-height: 70%;
+}
+
+h2{
+	color: gray;
+	line-height: 70%;
+}
+
+
+ div{
+
+	color: white;
+	font-size: 14px;
+
+}
+
+body{
+
+	font-family: 'Ubuntu' , sans-serif ;
+	font-size: 24px; /* em, rem,% */
+	line-height: 1.5;
+	
+	
+
+}
+
+
+p.bold{
+
+	font-weight: 900;
+	line-height: 70%;
+}
+
+p.italic{
+	font-style: italic;
+	line-height: 70%;
+}
+
+p.three{
+	letter-spacing: .3em;
+	line-height: 10%;
+}
+
+p.six{
+	letter-spacing: -.06em;
+	line-height: 70%;
+}
+
+p.under{
+
+	text-decoration: underline;
+	line-height: 70%;
+}
+
+p.through{
+	text-decoration: line-through;
+	line-height: 70%;
+}
+
+p.over{
+	text-decoration: overline;
+	line-height: 70%;
+}
+
+p.upper{
+	text-transform: uppercase;
+	line-height: 70%;
+}
+
+p.lower{
+	text-transform: lowercase;
+	line-height: 70%;
+}
+
+p.caps{
+	text-transform: capitalize;
+	line-height: 70%;
+}
+
+
+
+}
+
