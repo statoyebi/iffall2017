@@ -1,0 +1,181 @@
+<!doctype html>
+
+<html>
+
+<head>
+		<title>Image Format Comparisons</title>
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				padding: 30px;
+			}
+
+			h1 {
+				margin: 0 0 6px 0;
+			}
+
+			h2 {
+				margin: 0 0 30px 0;
+			}
+
+			table {
+			}
+
+			td, th {
+				background-color: #eee;
+				padding: 30px;
+				margin: 2px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.blank {
+				background-color: transparent;
+			}
+
+			.label {
+				background-color: #3997b6;
+				color: #fff;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.label.optimized {
+				background-color: #39b64e;
+			}
+
+			.note {
+				font-size: 14px;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			div.note {
+				margin-top: 5px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Image Optimization Grid</h1>
+		<h2>Tolu Atoyebi</h2>
+
+		<table>
+			<tbody>
+
+			<tr>
+				<td class="label">Original</td>
+
+				<td><img src="images/sign_original.jpg" alt="Sign - Original"><div class="note">115KB</div></td>
+
+				<td><img src="images/aziz_original.jpg" alt="Aziz - Original"><div class="note">91.2KB</div></td>
+
+				<td><img src="images/wings_original.svg" alt="Wings - Original"><div class="note">5.08KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">GIF 16 <span class="note">(with transparency)</span></td>
+
+				<td><img src="images/sign_original2.gif" alt="sign_original2">
+				<div class="note">19.19KB</div></td>
+
+				<td><img src="images/aziz_original2.gif" alt="Aziz - Original2"><div class="note">21.63KB</div></td>
+
+				<td><img src="images/wings_original2.gif" alt="Wings - Original2"><div class="note">19.8KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">GIF 256 <span class="note">(with transparency)</span></td>
+				<td><img src="images/sign_original3.gif" alt="sign_original3">
+				<div class="note">54.59KB</div></td>
+
+				<td><img src="images/aziz_original3.gif" alt="Aziz - Original3"><div class="note">56.9KB</div></td>
+
+				<td><img src="images/wings_original3.gif" alt="Wings - Original3"><div class="note">19.8KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">JPEG Low <span class="note">(10%)</span></td>
+				<td><img src="images/sign_original4.jpg" alt="sign_original4">
+				<div class="note">11.14KB</div></td>
+
+				<td><img src="images/aziz_original4.jpg" alt="Aziz - Original4"><div class="note">7KB</div></td>
+
+				<td><img src="images/wings_original4.jpg" alt="Wings - Original4"><div class="note">66.22KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">JPEG Very High <span class="note">(80%)</span></td>
+				<td><img src="images/sign_original5.jpg" alt="sign_original5">
+				<div class="note">55.6KB</div></td>
+
+				<td><img src="images/aziz_original5.jpg" alt="Aziz - Original5"><div class="note">39.75KB</div></td>
+
+				<td><img src="images/wings_original5.jpg" alt="Wings - Original5"><div class="note">227.5KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">PNG-8</td>
+				<td><img src="images/sign_original6.png" alt="sign_original6">
+				<div class="note">50.06KB</div></td>
+
+				<td><img src="images/aziz_original6.png" alt="Aziz - Original6"><div class="note">52.73KB</div></td>
+
+				<td><img src="images/wings_original6.png" alt="Wings - Original6"><div class="note">14.18KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">PNG-24 <span class="note">(without transparency)</span></td>
+
+				<td><img src="images/sign_original7.png" alt="sign_original7">
+				<div class="note">177.9KB</div></td>
+
+				<td><img src="images/aziz_original7.png" alt="Aziz - Original7"><div class="note">165.2KB</div></td>
+
+				<td><img src="images/wings_original7.png" alt="Wings - Original7"><div class="note">22.85KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">PNG-24 <span class="note">(with transparency)</span></td>
+				<td><img src="images/sign_original8.png" alt="sign_original8">
+				<div class="note">178KB</div></td>
+
+				<td><img src="images/aziz_original8.png" alt="Aziz - Original8"><div class="note">165.6KB</div></td>
+
+				<td><img src="images/wings_original8.png" alt="Wings - Original8"><div class="note">29.98KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label">SVG</td>
+				<td><img src="images/sign_original9.svg" alt="sign_original9">
+				<div class="note">158KB</div></td>
+
+				<td><img src="images/aziz_original9.svg" alt="Aziz - Original9"><div class="note">125KB</div></td>
+
+				<td><img src="images/wings_original9.svg" alt="Wings - Original9"><div class="note">5.08KB</div></td>
+			</tr>
+
+			<tr>
+				<td class="label optimized">Optimized <span class="note">(you choose)</span></td>
+				<td><img src="images/sign_original10.gif" alt="sign_original10">
+				<div class="note">11.23KB</div></td>
+
+				<td><img src="images/aziz_original10.gif" alt="Aziz - Original10"><div class="note">8.623KB</div></td>
+
+				<td><img src="images/wings_original10.jpg" alt="Wings - Original10"><div class="note">340.7KB</div></td>
+			</tr>
+
+			</tbody>
+
+		</table>
+
+
+	</body>
+
+	</html>
