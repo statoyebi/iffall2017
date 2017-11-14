@@ -1,0 +1,189 @@
+html{
+
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height :100%;
+}
+
+
+a{
+	text-transform: none;
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+
+div{
+
+	height: 100%;
+	width: 100%;
+	display: block;
+    background-size: cover;
+    background-position: top;
+	
+	}
+
+		div.first{
+			
+			font-family: 'Archivo Black', sans-serif;
+			text-transform: uppercase;
+		    color: white;
+			font-size: 20px;
+			font-weight: bold;
+			background-image: url(lk123.jpg);
+		}
+
+
+
+		@media screen and (max-width: 414px){
+
+		div.first {
+
+		    font-size: 1px;
+		    padding-left: 20px;
+		    background-size: all;
+		    background-position: 90% 50%;
+
+
+		}
+
+		@media screen and (max-width: 616px){
+
+
+		div.first {
+
+		    font-size: 8px;
+		    padding-left: 50px;
+		    width: 200px;
+		}
+
+		@media screen and (max-width: 678px){
+
+
+		div.first {
+
+		    font-size: 10px;
+		    padding-left: 70px;
+		    width: 300px;
+		}
+
+
+		}
+
+
+				div.second {
+
+					background-image: url("lc9.jpg");
+					font-family: 'Archivo Black', sans-serif;
+					text-transform: uppercase;
+				    color: yellow;
+					font-size: 20px;
+					font-weight: bold;
+					
+
+				}
+
+
+
+				@media screen and (max-width: 414px){
+
+				div.second {
+					font-size: 10px;
+				    text-align: right;
+				    background-size: 600%;
+				    background-position: 75%;
+
+				}
+
+				div.second h1{
+				
+				    position: absolute;
+					width: 50%;
+					right: 2%;
+					top: 5%;
+
+				}
+
+				@media screen and (max-width: 616px){
+
+
+				div.second {
+
+				    font-size: 8px;
+				    padding-left: 50px;
+				    width: 200px;
+				}
+
+				@media screen and (max-width: 678px){
+
+
+				div.second {
+
+				    font-size: 10px;
+				    padding-left: 70px;
+				    width: 300px;
+				}
+
+
+
+
+						div.third{
+
+							font-family: 'Archivo Black', sans-serif;
+							text-transform: uppercase;
+						    color: red;
+							
+							font-weight: bold;
+					
+							position: absolute;
+							background-image: url("cm7.jpg");
+				
+							
+						}
+							@media screen and (max-width: 414px){
+
+						div.third {
+
+							
+						    background-size:cover;
+						    background-position: 30%;
+
+						}
+
+						div.third h1{
+
+						
+						    position: absolute;
+							top: 5%;
+							left: 2%;
+
+						}
+
+						@media screen and (max-width: 616px){
+
+
+						div.third {
+
+						    font-size: 8px;
+						    padding-left: 50px;
+						    width: 200px;
+						}
+
+						@media screen and (max-width: 678px){
+
+
+						div.third {
+
+						    font-size: 10px;
+						    padding-left: 70px;
+						    width: 300px;
+						}
+
+
+
+
+
+
