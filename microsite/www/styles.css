@@ -1,0 +1,279 @@
+.one{
+
+	background-image: url(pizza3.png);
+	background-size: cover;
+	background-position:  50% 20%;
+	background-repeat: no-repeat;
+
+}
+
+.two {
+	background-image: url(pizza1.png);
+	background-size: cover;
+
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1600px){
+
+	html{
+		height: 100%;
+	}
+}
+.pizza{
+	display: inline-block;
+	   
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+
+	
+}
+
+a.menu:hover{
+	color: rgb(217, 176, 72);
+}
+
+
+a.pizza:hover { 
+	
+    content: url(99954.png);
+   
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    font-family: 'Didot' , serif;
+    font-size: 11pt;
+    text-align: center;
+
+
+}
+.subtwo {
+	
+	color: darkgreen;
+	font-size: 50pt;
+	font-family: 'Italianno', cursive;
+	text-align: center;
+	line-height: 5pt;
+	}
+
+
+li{
+	display: inline;
+}
+
+li a{
+    padding-right: 75px;
+    padding-left: 75px;
+	color: green;
+	text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+	li {
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+}
+
+
+
+.homepage{
+
+	position: absolute;
+	width: 100%;
+	color: darkgreen ;
+	line-height: 150pt;
+	font-size: 150pt;
+	text-align: center;
+	font-family: 'Italianno', cursive;}
+	
+	.homepagetwo{
+
+	position: absolute;
+	width: 100%;
+	color: darkgreen ;
+	line-height: 150pt;
+	font-size: 100pt;
+	text-align: center;
+	font-family: 'Italianno', cursive;}
+
+@media screen and (max-width: 670px){
+
+	.homepagetwo {
+		top: 10%;
+		font-size: 72pt;
+		line-height: 60pt;
+	}
+}
+
+
+@media screen and (max-width: 670px){
+
+	.homepage {
+		top: 10%;
+		font-size: 100pt;
+		line-height: 100pt;
+	}
+}
+
+.ingredientsone{
+	left:500px;
+	top: 150px;
+	position: absolute;
+	font-family: 'Didot' , serif;
+    font-size: 12pt;
+
+
+}
+
+.ingredientstwo{
+	left:1100px;
+	top: 300px;
+	position: absolute;
+	font-family: 'Didot' , serif;
+    font-size: 12pt;
+
+
+}
+
+.ingredientsthree{
+	
+	left:600px;
+	top: 800px;
+	position: absolute;
+	font-family: 'Didot' , serif;
+    font-size: 12pt;
+
+
+}
+.infoone{
+	width:600px;
+}
+.infotwo{
+	width:400px;
+}
+
+p.subt {
+	color: rgb(217, 176, 72);
+	margin-bottom: 0;
+	
+	font-size: 50pt;
+	font-family: 'Italianno', cursive;}
+}
+
+
+
+
+
+.bodcopy{	
+
+	line-height: 19pt;
+	font-family: 'Didot' , serif;
+    font-size: 12pt;  
+}
+
+
+
+
+.first{
+	display: inline-block;
+	top: 15%;
+	left: 22%;
+	position: absolute;
+	width: 600px;
+}
+.second{
+	
+	display: inline-block;
+	top: 25%;
+	left: 58%;
+	position: absolute;
+	width:400px;
+}
+
+.third{
+	
+	display: inline-block;
+	top: 25%;
+	left: 22%;
+	position: absolute;
+	width:400px;
+	
+}
+
+.fourth{
+	display: inline-block;
+	top: 15%;
+	left:47%;
+	position: absolute;
+	width:600px;
+}
+
+.restlink {
+	
+
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.besttwo{
+	left: 5%;
+	display: block;
+	top: 345px;
+	position: absolute;
+	
+	
+	
+	}
+	
+.bestfour{
+	left: 5%;
+	top: 620px;
+
+display: block;
+	position: absolute;
+	
+	
+	
+	}
+	
+	
+	
+	
+.logo{
+	
+	width:50%;
+	display: block;
+    margin: auto;
+
+    }
+	
+	.last{
+		display: block;
+		margin: auto;
+		padding-top: 8%;
+		width: 90%;}
+		
+
+
+
