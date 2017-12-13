@@ -1,0 +1,84 @@
+html{	
+
+}
+
+body {
+	padding: 0;
+	
+	background-image: url(DRAM3.jpg) ;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	text-align: center;
+	color: white;
+
+
+	}
+
+
+div{
+	font-size: 16pt;
+	font-family: 'Nunito', sans-serif;
+	margin: auto;
+	padding-top: 30%;
+	z-index: 2
+	padding:25%;
+	width: 50%;
+	padding-bottom: 35%
+
+
+
+	
+	
+}
+
+
+
+section{
+
+	margin: auto;
+	
+
+	overflow: auto;
+	position: fixed;
+	
+
+	height: 600px;
+
+	
+
+	border-style: solid;
+    border-width: 0pt;
+    display: block;
+    text-align: center;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+marquee{
+
+	margin: auto;
+	display: block;
+	padding-top: 23%;
+	text-align: center;
+	position: fixed; 
+	color: white;
+	text-shadow: 4px 4px 4px orange;
+	font-weight: 800;
+	font-family: 'Nunito', sans-serif;
+	font-size: 40pt;
+	
+
+	
+}
+
+}
+
+
+
+ 
+  
